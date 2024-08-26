@@ -1,0 +1,134 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.main-color {
+  background: #2295ed; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #2295ed 0%,
+    #ea5671 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #2295ed 0%,
+    #ea5671 100%
+  ); 
+  background: linear-gradient(
+    to right,
+    #2295ed 0%,
+    #ea5671 100%
+  ); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2295ed', endColorstr='#ea5671',GradientType=1 ); /* IE6-9 */
+}
+
+ul.sidenav li i.fas {
+  margin-right: 2rem;
+}
+
+header .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .row {
+  padding: 2rem;
+}
+.flex {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+.features .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.head {
+  border-bottom: 2px solid #ea5671;
+  margin-bottom: 2rem;
+}
+
+#video {
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 2rem;
+  opacity: 0.6;
+}
+
+.testimonials .card {
+  padding: 2rem;
+  transition: 0.5s all;
+}
+#testimonial:hover {
+  transform: scale(1.05);
+}
+.buy-now {
+  padding: 2rem;
+  text-align: center;
+}
+.buy-now button {
+  color: #2295ed;
+}
+.newsletter {
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+footer {
+  padding-top: 1.3rem;
+}
+footer a {
+  color: #ffffff !important;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .follow a {
+  margin-right: 1rem;
+}
+
+.below-footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.why {
+  margin-top: 4rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 33%;
+  max-width: 33%;
+}
+
+.column img {
+   vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
